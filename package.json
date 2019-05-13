@@ -1,0 +1,14 @@
+{
+  "name": "huddle",
+  "version": "1.0.0",
+  "description": "Huddle by STVN",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "Steven Vos",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
