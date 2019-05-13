@@ -1,0 +1,97 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem; }
+  .header_logo img {
+    height: 90%;
+    width: 100%; }
+  .header_button {
+    margin-left: auto;
+    color: #ff52bf;
+    border: 1px solid #ff52bf;
+    border-radius: 4rem;
+    padding: 1rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    text-align: center; }
+
+.main {
+  padding-top: 14rem; }
+  .main_heading {
+    text-align: center; }
+    .main_heading h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 4.8rem;
+      color: #00252e; }
+    .main_heading p {
+      margin-left: 36rem;
+      margin-right: 36rem;
+      color: #00252e;
+      font-size: 2rem; }
+    .main_heading--button {
+      display: inline-block;
+      color: white;
+      font-size: 2rem;
+      font-weight: 700;
+      background-color: #ff52bf;
+      padding: 3rem;
+      width: 34rem;
+      border-radius: 9rem;
+      box-shadow: 5px 12px 38px -10px #000000; }
+  .main_headimage {
+    text-align: center;
+    padding-top: 14rem; }
+    .main_headimage--img img {
+      height: 40%;
+      width: 75%; }
+    .main_headimage--stats {
+      display: flex; }
+      .main_headimage--stats .headimage--stats--left {
+        display: grid;
+        grid-template-rows: 1rem, 2rem, 1rem;
+        grid-template-columns: 1fr;
+        padding-top: 8rem;
+        padding-left: 25rem; }
+        .main_headimage--stats .headimage--stats--left .stats--img {
+          display: block;
+          text-align: left; }
+        .main_headimage--stats .headimage--stats--left .stats--head {
+          color: #00252e;
+          font-size: 8rem;
+          font-weight: 700; }
+        .main_headimage--stats .headimage--stats--left .stats--text {
+          color: rgba(0, 37, 46, 0.5);
+          font-size: 1.7rem; }
+      .main_headimage--stats .headimage--stats--right {
+        display: grid;
+        grid-template-rows: 1rem, 2rem, 1rem;
+        grid-template-columns: 1fr;
+        padding-top: 8rem;
+        padding-left: 35rem; }
+        .main_headimage--stats .headimage--stats--right .stats--img {
+          display: block;
+          text-align: left; }
+        .main_headimage--stats .headimage--stats--right .stats--head {
+          color: #00252e;
+          font-size: 8rem;
+          font-weight: 700; }
+        .main_headimage--stats .headimage--stats--right .stats--text {
+          color: rgba(0, 37, 46, 0.5);
+          font-size: 1.7rem; }
+  .main_features--item {
+    background-color: #f5faff; }
+    .main_features--item .features--item--img img {
+      height: 10%;
+      width: 20%; }
