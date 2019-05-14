@@ -167,6 +167,7 @@ body {
         
         &--bgtop--1 {
             background-image: url(../images/bg-section-top-desktop-1.svg);
+            background-size: cover;
             height: 16.5rem;
         }
 
@@ -213,6 +214,7 @@ body {
 
         &--bgbtm--1 {
             background-image: url(../images/bg-section-bottom-desktop-1.svg);
+            background-size: cover;
             height: 13.8rem;
         }
 
@@ -261,6 +263,7 @@ body {
 
         &--bgtop--2 {
             background-image: url(../images/bg-section-top-desktop-2.svg);
+            background-size: cover;
             height: 15.6rem;
         }
 
@@ -307,6 +310,7 @@ body {
 
         &--bgbtm--2 {
             background-image: url(../images/bg-section-bottom-desktop-2.svg);
+            background-size: cover;
             height: 13.9rem;
         }
     }
@@ -347,6 +351,7 @@ body {
 // FOOTER
 .footer_bgtop {
     background-image: url(../images/bg-footer-top-desktop.svg);
+    background-size: cover;
     height: 15.8rem;
 }
 

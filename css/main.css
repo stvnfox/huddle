@@ -92,6 +92,7 @@ body {
           font-size: 1.7rem; }
   .main_features--bgtop--1 {
     background-image: url(../images/bg-section-top-desktop-1.svg);
+    background-size: cover;
     height: 16.5rem; }
   .main_features--item--1 {
     background-color: #f5faff;
@@ -117,6 +118,7 @@ body {
         width: 80%; }
   .main_features--bgbtm--1 {
     background-image: url(../images/bg-section-bottom-desktop-1.svg);
+    background-size: cover;
     height: 13.8rem; }
   .main_features--item--2 {
     display: grid;
@@ -144,6 +146,7 @@ body {
         width: 80%; }
   .main_features--bgtop--2 {
     background-image: url(../images/bg-section-top-desktop-2.svg);
+    background-size: cover;
     height: 15.6rem; }
   .main_features--item--3 {
     background-color: #f5faff;
@@ -169,6 +172,7 @@ body {
         width: 80%; }
   .main_features--bgbtm--2 {
     background-image: url(../images/bg-section-bottom-desktop-2.svg);
+    background-size: cover;
     height: 13.9rem; }
   .main_contact {
     height: 45rem;
@@ -192,6 +196,7 @@ body {
 
 .footer_bgtop {
   background-image: url(../images/bg-footer-top-desktop.svg);
+  background-size: cover;
   height: 15.8rem; }
 
 .footer {
