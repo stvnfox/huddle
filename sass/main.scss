@@ -312,7 +312,7 @@ body {
     }
 
     &_contact {
-        height: 50rem;
+        height: 45rem;
         text-align: center;
         padding-top: 14rem;
 
@@ -355,59 +355,85 @@ body {
     color: white;
 
     display: grid;
-    grid-template-rows: 20rem;
+    grid-template-rows: 65rem;
     grid-template-columns: 1fr 1fr;
-
-    padding-top: 7rem;
 
 
     &_info {
-        padding-left: 7rem;
-        width: 40rem;
-
-        &--img {
-            
-
-            img {
-                fill: white;
-            }
-
-        }
+        padding-left: 20%;
+        padding-top: 20rem;
+        width: 30rem;
 
         &--text {
+            padding-top: 2rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
 
+        &--contact {
+            padding-top: 2.5rem;
+            font-size: 1.5rem;
+            line-height: 2;
+
+            ion-icon {
+                font-size: 2.5rem;
+                padding-right: 1.5rem;
+            }
         }
 
         &--social {
+            padding-top: 6rem;
+            font-size: 4rem;
 
+            ion-icon {
+                padding-right: 2rem;
+            }
         }
 
     }
 
     &_subscribe {
-        padding-right: 7rem;
+        padding-left: 8rem;
+        padding-right: 4rem;
+        padding-top: 19rem;
 
         &--heading {
 
             h1 {
-
+                font-size: 2.2rem;
+                text-transform: uppercase;
             }
 
             p {
-
+                padding-top: .5rem;
+                font-size: 1.5rem;
+                font-weight: 600;
             }
 
 
         }
 
         &--input {
+            padding-top: 5rem;
 
             input {
-
+                height: 3.5rem;
+                width: 35rem;
+                border: none;
+                border-radius: .9rem;
             }
 
             button {
+                background-color: $primary-pink;
+                color: white;
+                font-weight: 700;
+                font-size: 1.5rem;
 
+                height: 3.8rem;
+                width: 15rem;
+                border: none;
+                border-radius: .9rem;
+                margin-left: 3rem;
             }
 
         }
