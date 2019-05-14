@@ -108,7 +108,7 @@ body {
         &--stats {
 
             display: flex;
-    
+            padding-left: 19%;
 
             .headimage--stats--left {
                 display: grid;
@@ -116,7 +116,7 @@ body {
                 grid-template-columns: 1fr;
                 
                 padding-top: 8rem;
-                padding-left: 25rem; 
+                
 
                 .stats--img {
                     display: block;
@@ -141,7 +141,7 @@ body {
                 grid-template-columns: 1fr;
                 
                 padding-top: 8rem;
-                padding-left: 35rem; 
+                padding-left: 37rem; 
 
                 .stats--img {
                     display: block;
@@ -165,29 +165,45 @@ body {
 
     &_features {
         
-        &--bgtop {
-            
-            
+        &--bgtop--1 {
+            background-image: url(../images/bg-section-top-desktop-1.svg);
+            height: 16.5rem;
         }
 
-        &--item {
-
-            
+        &--item--1 {            
             background-color: $neutral-paleblue;
 
-            .features--item--text {
+            display: grid;
+            grid-template-rows: 45rem;
+            grid-template-columns: 1fr 1fr; 
 
-                h1 {
-                    
+            padding-top: 4rem;
+            padding-left: 7rem;
+
+            .features--item--text {
+                padding-right: 15rem;
+                padding-top: 14rem;
+
+                .item--text--head {
+                    font-size: 3.5rem;
+                    font-family: $font-heading;
+                    color: $neutral-darkcyan;
+                }
+
+                .item--text--sub {
+                    padding-top: 2rem;
+                    font-size: 1.5rem;
                 }
 
             }
 
             .features--item--img {
-                
+                padding-left: 3.5rem;
+
+
                 img {
-                    height: 10%;
-                    width: 20%;
+                    height: 90%;
+                    width: 80%;
                 }
 
             }
@@ -195,19 +211,132 @@ body {
             
         }
 
+        &--bgbtm--1 {
+            background-image: url(../images/bg-section-bottom-desktop-1.svg);
+            height: 13.8rem;
+        }
+
+        &--item--2 {            
+            display: grid;
+            grid-template-rows: 55rem;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "image text"; 
+
+            padding-top: 6rem;
+            padding-left: 7rem;
+
+            .features--item--text {
+                grid-area: text;
+                padding-right: 15rem;
+                padding-top: 14rem;
+
+                .item--text--head {
+                    font-size: 3.5rem;
+                    font-family: $font-heading;
+                    color: $neutral-darkcyan;
+                }
+
+                .item--text--sub {
+                    padding-top: 2rem;
+                    font-size: 1.5rem;
+                }
+
+            }
+
+            .features--item--img {
+                grid-area: image;
+                padding-left: 3.5rem;
+
+
+                img {
+                    height: 77%;
+                    width: 80%;
+                }
+
+            }
+
+            
+        }
+
+        &--bgtop--2 {
+            background-image: url(../images/bg-section-top-desktop-2.svg);
+            height: 15.6rem;
+        }
+
+        &--item--3 {            
+            background-color: $neutral-paleblue;
+
+            display: grid;
+            grid-template-rows: 45rem;
+            grid-template-columns: 1fr 1fr; 
+
+            padding-top: 4rem;
+            padding-left: 7rem;
+
+            .features--item--text {
+                padding-right: 15rem;
+                padding-top: 14rem;
+
+                .item--text--head {
+                    font-size: 3.5rem;
+                    font-family: $font-heading;
+                    color: $neutral-darkcyan;
+                }
+
+                .item--text--sub {
+                    padding-top: 2rem;
+                    font-size: 1.5rem;
+                }
+
+            }
+
+            .features--item--img {
+                padding-left: 3.5rem;
+
+
+                img {
+                    height: 90%;
+                    width: 80%;
+                }
+
+            }
+
+            
+        }
+
+        &--bgbtm--2 {
+            background-image: url(../images/bg-section-bottom-desktop-2.svg);
+            height: 13.9rem;
+        }
     }
 
     &_contact {
+        height: 50rem;
+        text-align: center;
+        padding-top: 14rem;
 
         &--heading {
+            font-size: 3.5rem;
+            font-family: $font-heading;
+            color: $neutral-darkcyan;
 
+            padding-bottom: 6rem;
         }
 
         &--button {
 
-            button {
+            display: inline-block;
 
-            }
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+            background-color: $primary-pink;
+
+            padding: 3rem;
+            width: 34rem;
+            border-radius: 9rem;
+            box-shadow: 5px 12px 38px -10px #000000;
 
         }
 
@@ -216,12 +345,32 @@ body {
 }
 
 // FOOTER
+.footer_bgtop {
+    background-image: url(../images/bg-footer-top-desktop.svg);
+    height: 15.8rem;
+}
 
 .footer {
+    background-color: $neutral-darkcyan;
+    color: white;
+
+    display: grid;
+    grid-template-rows: 20rem;
+    grid-template-columns: 1fr 1fr;
+
+    padding-top: 7rem;
+
 
     &_info {
+        padding-left: 7rem;
+        width: 40rem;
 
         &--img {
+            
+
+            img {
+                fill: white;
+            }
 
         }
 
@@ -236,6 +385,7 @@ body {
     }
 
     &_subscribe {
+        padding-right: 7rem;
 
         &--heading {
 
