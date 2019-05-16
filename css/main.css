@@ -79,7 +79,7 @@ body {
         grid-template-rows: 1rem, 2rem, 1rem;
         grid-template-columns: 1fr;
         padding-top: 8rem;
-        padding-left: 37rem; }
+        padding-left: 34%; }
         .main_headimage--stats .headimage--stats--right .stats--img {
           display: block;
           text-align: left; }
@@ -114,8 +114,8 @@ body {
     .main_features--item--1 .features--item--img {
       padding-left: 3.5rem; }
       .main_features--item--1 .features--item--img img {
-        height: 90%;
-        width: 80%; }
+        height: 40rem;
+        width: 47rem; }
   .main_features--bgbtm--1 {
     background-image: url(../images/bg-section-bottom-desktop-1.svg);
     background-size: cover;
@@ -142,8 +142,8 @@ body {
       grid-area: image;
       padding-left: 3.5rem; }
       .main_features--item--2 .features--item--img img {
-        height: 77%;
-        width: 80%; }
+        height: 42rem;
+        width: 46rem; }
   .main_features--bgtop--2 {
     background-image: url(../images/bg-section-top-desktop-2.svg);
     background-size: cover;
@@ -168,8 +168,8 @@ body {
     .main_features--item--3 .features--item--img {
       padding-left: 3.5rem; }
       .main_features--item--3 .features--item--img img {
-        height: 90%;
-        width: 80%; }
+        height: 40rem;
+        width: 49rem; }
   .main_features--bgbtm--2 {
     background-image: url(../images/bg-section-bottom-desktop-2.svg);
     background-size: cover;
@@ -203,7 +203,7 @@ body {
   background-color: #00252e;
   color: white;
   display: grid;
-  grid-template-rows: 65rem;
+  grid-template-rows: 60rem;
   grid-template-columns: 1fr 1fr; }
   .footer_info {
     padding-left: 20%;

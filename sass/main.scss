@@ -141,7 +141,7 @@ body {
                 grid-template-columns: 1fr;
                 
                 padding-top: 8rem;
-                padding-left: 37rem; 
+                padding-left: 34%; 
 
                 .stats--img {
                     display: block;
@@ -203,8 +203,8 @@ body {
 
 
                 img {
-                    height: 90%;
-                    width: 80%;
+                    height: 40rem;
+                    width: 47rem;
                 }
 
             }
@@ -252,8 +252,8 @@ body {
 
 
                 img {
-                    height: 77%;
-                    width: 80%;
+                    height: 42rem;
+                    width: 46rem;
                 }
 
             }
@@ -299,8 +299,8 @@ body {
 
 
                 img {
-                    height: 90%;
-                    width: 80%;
+                    height: 40rem;
+                    width: 49rem;
                 }
 
             }
@@ -360,7 +360,7 @@ body {
     color: white;
 
     display: grid;
-    grid-template-rows: 65rem;
+    grid-template-rows: 60rem;
     grid-template-columns: 1fr 1fr;
 
 
